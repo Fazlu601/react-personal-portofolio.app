@@ -141,7 +141,7 @@ footer.footer {
   width: 100%;
   padding: 50px;
   color: var(--secondary-color);
-  background-color: black;
+  background-color: #121111;
 }
 .footer > h3 {
   font-size: 25px;
@@ -149,11 +149,6 @@ footer.footer {
 
 
 /* ABout Page */
-
-article.about-me {
-  width: 70%;
-  margin: 0 auto;
-}
 
 ul.list-group {
   list-style: none;
@@ -224,6 +219,34 @@ aside.project-group-img > img {
   width: 100%;
 }
 
+  aside.article-img {
+    width: 40%;
+  }
+  aside.article-img > img {
+    width: 100%;
+  }
+  .article-title {
+    font-size: 24px;
+  }
+  .article-description {
+    font-size: 16px;
+    word-spacing: 2px;
+  }
+
+  article.article-child {
+    width: 25%;
+    margin: 0 20px;
+  }
+  .article-child > img {
+    width: 100%;
+  }
+  .article-title-child {
+    font-size: 20px;
+  }
+  .date-caption-child {
+    font-size: 14px;
+  }
+
 @media screen and (max-width: 1080px) {
   aside.header-desc {
     padding: 20px 0 0;
@@ -255,6 +278,9 @@ aside.project-group-img > img {
 }
 
 @media screen and (max-width: 755px) {
+  .mx-sm-auto {
+    margin: 0 auto;
+  }
   header.header-profile > .row {
     flex-direction: column-reverse;
   }
@@ -309,6 +335,18 @@ aside.project-group-img > img {
     font-size: 34px !important;
   }
 
+
+  aside.article-img {
+    width: 80%;
+  }
+.article-desc {
+    width:100% !important;
+}
+
+article.article-child {
+  width: 50%;
+  margin: 0 20px 20px;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -350,5 +388,24 @@ aside.project-group-img > img {
 
     .skills-icon {
       font-size: 28px !important;
+    }
+    li.list-img > img {
+      width: 80px;
+      margin: 0 10px 10px;
+    }
+
+  aside.article-img {
+    width: 100%;
+  }
+
+    article.article-child {
+      width: 90%;
+      margin: 0 20px 20px;
+    }
+    .article-title-child {
+      font-size: 18px;
+    }
+    .date-caption-child {
+      font-size: 12px;
     }
 }

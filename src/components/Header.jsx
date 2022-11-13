@@ -8,13 +8,13 @@ function Header() {
                 <div className='row'>
                     <aside className='header-desc'>
                         <h3 className='header-introduction'>Hi, i'm Fazlu Rachman</h3>
-                        <h2 className='header-title'>Front-End Web Developer on SIB Tech4Impact</h2>
+                        <h2 className='header-title'>Front-End Web Developer at SIB Tech4Impact</h2>
                         <p className='header-description'>
-                        I’m from Indonesia and I have been working as a UI UX designer for more than 5 years. I’ve worked for a Dutch company Frisseblikken as a web designer and front-end developer for 3 years, I build my own web development team Duosweb since 2018, and currently I work for Bold Australia as UI Designer since 2020. I’ve been freelancing for the last 8 years, and right now I am looking forward to collaborate with you!
+                        I’m from Indonesia and I am a student majoring in information systems who are interested and want to learn many things about programming, especially in web development. I feel this is the right passion for me, and I will continue to study as best as I can to pursue the career I dream of.
                         </p>
                         <div className='contact-group'>
                             <button type='button' className='btn-md'>
-                                <FaMailBulk/>
+                                <FaMailBulk className='me-1'/>
                                 Email Me
                             </button>
                             <aside className='social-group'>

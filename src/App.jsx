@@ -6,7 +6,6 @@ import NavBar from './components/NavBar'
 import About from './page/About'
 import Skills from './page/Skills'
 import Article from './page/Article'
-import Footer from './components/Footer'
 
 function App() {
  
@@ -19,7 +18,6 @@ function App() {
           <Route path='/skills' element={<Skills/>} />
           <Route path='/article' element={<Article/>} />
         </Routes>
-        <Footer/>
       </main>
     )
 }

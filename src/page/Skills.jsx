@@ -1,9 +1,10 @@
 import React from 'react'
 import { FaHtml5, FaCss3, FaJs, FaPhp, FaLaravel, FaReact, FaDatabase, FaFigma, FaGithub } from 'react-icons/fa'
+import Footer from '../components/Footer'
 
 function Skills() {
   return (
-    <>
+    <div className='bg-triangle-animated'>
         <section className='skills-section'>
             <h1 className='title-page text-secondary text-center mt-3 mb-2'>Skills</h1>
             <article className='skills-group'>
@@ -27,7 +28,7 @@ function Skills() {
                       <h3 className='project-group-title '>Group Project</h3>
                       <p className='project-group-description'>In this project, my team and I create a digital product based on the challenge partner's problems. Namely making product innovations that can help the community in dealing with the COVID-19 pandemic.....</p>
                       <a href='https://github.com/FE-20-Group-Project/Bangkit-app' target='_blank'>
-                      <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub/> Detail Repositories</button>
+                      <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> Detail Repositories</button>
                       </a>
                     </aside>
                     <aside className='project-group-img'>
@@ -50,7 +51,7 @@ function Skills() {
                         </ul>
                       </div>
                       <a href='https://github.com/FE-20-Group-Project/Bangkit-app' target='_blank'>
-                      <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub/> Detail Repositories</button>
+                      <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> Detail Repositories</button>
                       </a>
                     </aside>
                 </div>
@@ -66,7 +67,7 @@ function Skills() {
                         </ul>
                       </div>
                       <a href='https://github.com/FE-20-Group-Project/Bangkit-app' target='_blank'>
-                      <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub/> Detail Repositories</button>
+                      <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> Detail Repositories</button>
                       </a>
                     </aside>
                 </div>
@@ -77,7 +78,7 @@ function Skills() {
                       <h3 className='project-group-title '>All Project</h3>
                       <p className='project-group-description'>You can see more of my projects on github via the following button</p>
                       <a href='https://github.com/FE-20-Group-Project/Bangkit-app' target='_blank'>
-                      <button className='w-60 bn5 mt-3 p-1 fs-3'><FaGithub/> View on GithHub...</button>
+                      <button className='w-60 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> View on GithHub...</button>
                       </a>
                     </aside>
                     <aside className='project-group-img'>
@@ -86,7 +87,8 @@ function Skills() {
                 </div>
             </article>
         </section>
-    </>
+        <Footer/>
+    </div>
   )
 }
 
