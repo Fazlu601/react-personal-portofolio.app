@@ -1,40 +1,37 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { FaHome, FaInfoCircle, FaReadme, FaBook } from 'react-icons/fa'
 
-const linkStyle = { textDecoration: 'none', width:'100%' }
+const linkStyle = { color: 'gold' }
 
 function NavBar() {
   return (
     <nav className='navbar'>
-      <div className='nav-brand'>
-        Fazlu Rachman
-      </div>
-      <ul className='nav-list'>
+    <div className='nav-link'>
         <Link to='/' style={linkStyle}>
-            <li className='nav-items'>
+        <div className='nav-brand'>
+                <img className='nav-brand-icon' src='./src/assets/image/profile.png' width='28' />
+                <span className='nav-brand-text'>Fazlu Rachman</span>
+        </div>
+        </Link>
+    </div>
+      <ul className='nav-list'>
+        <NavLink to='/' className='nav-items' style={({isActive}) => (isActive ? linkStyle : undefined)} >
                 <span className='nav-text'>Home</span>
                 <FaHome className='nav-icon'/>
-            </li>
-        </Link>
-        <Link to='/about' style={linkStyle}>
-            <li className='nav-items'>
+        </NavLink>
+        <NavLink to='/about' className='nav-items' style={({isActive}) => (isActive ? linkStyle : undefined)}>
                 <span className='nav-text'>About</span>
                 <FaInfoCircle className='nav-icon' />
-            </li>
-        </Link>
-        <Link to='/skills' style={linkStyle}>
-            <li className='nav-items'>
+        </NavLink>
+        <NavLink to='/skills' className='nav-items' style={({isActive}) => (isActive ? linkStyle : undefined)}>
                 <span className='nav-text'>Skills</span>
                 <FaReadme className='nav-icon' />
-            </li>
-        </Link>
-        <Link to='article' style={linkStyle}>
-            <li className='nav-items'>
+        </NavLink>
+        <NavLink to='article' className='nav-items' style={({isActive}) => (isActive ? linkStyle : undefined)}>
                 <span className='nav-text'>Article</span>
                 <FaBook className='nav-icon' />
-            </li>
-        </Link>
+        </NavLink>
       </ul>
     </nav>
   )

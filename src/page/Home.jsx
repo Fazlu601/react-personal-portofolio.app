@@ -1,10 +1,13 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+
 
 function Home() {
+  
   return (
     <>
-        <h1>Ini Halaman Home</h1>
+        <Header/>
     </>
   )
 }
