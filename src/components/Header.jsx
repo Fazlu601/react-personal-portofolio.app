@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaMailBulk, FaGithub, FaLinkedin, FaInstagram, FaDownload } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import Profil from '../assets/profile4.jpeg'
 
 function Header() {
   return (
@@ -29,13 +30,13 @@ function Header() {
                                 </a>
                             </aside>
                         </div>
-                        <a className='btn-download cv'>
+                        {/* <a className='btn-download cv'>
                             <FaDownload/>
                             <span className='caption-download'>Download CV</span>
-                        </a>
+                        </a> */}
                     </aside>
                     <aside className='header-img'>
-                        <img src='src/assets/profile4.jpeg' />
+                        <img src={Profil} />
                     </aside>
                 </div>
         </header>
