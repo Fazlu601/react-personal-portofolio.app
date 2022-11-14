@@ -35,7 +35,7 @@ function Header() {
                         </a>
                     </aside>
                     <aside className='header-img'>
-                        <img src='/src/assets/image/profile4.jpeg' />
+                        <img src='/src/assets/profile4.jpeg' />
                     </aside>
                 </div>
         </header>
