@@ -15,7 +15,7 @@ function ProjectGroup() {
                 </a>
                 </aside>
                 <aside className='project-group-img'>
-                <img src='./src/assets/image/screenShoot.png' />
+                <img src='/src/assets/image/screenShoot.png' />
                 </aside>
             </div>
         </article>
@@ -23,7 +23,7 @@ function ProjectGroup() {
                 <h3 className='project-group-title text-secondary'>Campus - Research Project</h3>
             <div className='row d-flex justify-content-between flex-column mb-3'>
                 <aside className='project-group-img mb-sm-3 p-1'>
-                <img src='./src/assets/image/aini.jpg' />
+                <img src='/src/assets/image/aini.jpg' />
                 </aside>
                 <aside className='project-group-desc text-secondary'>
                 <div className='project-group-description'>
@@ -40,7 +40,7 @@ function ProjectGroup() {
             </div>
             <div className='row d-flex justify-content-between flex-column'>
                 <aside className='project-group-img mb-sm-3 p-1'>
-                <img src='./src/assets/image/jordi.jpg' />
+                <img src='/src/assets/image/jordi.jpg' />
                 </aside>
                 <aside className='project-group-desc text-secondary'>
                 <div className='project-group-description'>
@@ -65,7 +65,7 @@ function ProjectGroup() {
                 </a>
                 </aside>
                 <aside className='project-group-img'>
-                <img src='./src/assets/image/skilMovie.png' />
+                <img src='/src/assets/image/skilMovie.png' />
                 </aside>
             </div>
         </article>
