@@ -8,7 +8,6 @@ import Skills from './page/Skills'
 import Article from './page/Article'
 
 function App() {
- 
     return (
       <main>
         <NavBar/>

@@ -15,7 +15,7 @@ function NavBar() {
         </div>
         </Link>
     </div>
-      <ul className='nav-list'>
+      <div className='nav-list'>
         <NavLink to='/' className='nav-items' style={({isActive}) => (isActive ? linkStyle : undefined)} >
                 <span className='nav-text'>Home</span>
                 <FaHome className='nav-icon'/>
@@ -32,7 +32,7 @@ function NavBar() {
                 <span className='nav-text'>Article</span>
                 <FaBook className='nav-icon' />
         </NavLink>
-      </ul>
+      </div>
     </nav>
   )
 }
