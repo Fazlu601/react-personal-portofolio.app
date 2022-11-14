@@ -5,7 +5,7 @@ import Profil from '../assets/profile4.jpeg'
 
 function Header() {
   return (
-        <header className='header-profile'>
+        <header className='header-profile pb-2'>
                 <div className='row'>
                     <aside className='header-desc'>
                         <h3 className='header-introduction'>Hi, i'm Fazlu Rachman</h3>
