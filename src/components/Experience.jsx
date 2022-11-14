@@ -1,4 +1,7 @@
 import React from 'react'
+import Msib from '../assets/msib.png'
+import Skilvul from '../assets/skilvul.png'
+import KampusMerdeka from '../assets/kampusMerdeka.png'
 
 function Experience() {
   return (
@@ -6,9 +9,9 @@ function Experience() {
         <h1 className='text-center title-page text-secondary mt-3 mb-2'>Experience</h1>
         <ul className='list-group text-secondary '>
             <li className='list-img text-center'>
-                <img src="/src/assets/skilvul.png" />
-                <img src='/src/assets/msib.png' />
-                <img src='/src/assets/kampusMerdeka.png' />
+                <img src={Skilvul}/>
+                <img src={Msib} />
+                <img src={KampusMerdeka} />
             </li>
             <li>SIB (Studi Independen Bersertifikat) Kampus Merdeka Batch 3, Mitra : PT. Impactbyte Teknologi Edukasi - Skilvul Tech4Impact, Learning Track : Front-End Web Development
                 <ul className='list-group list-title'>

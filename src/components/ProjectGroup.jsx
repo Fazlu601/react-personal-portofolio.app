@@ -1,5 +1,9 @@
 import React from 'react'
 import { FaGithub } from 'react-icons/fa'
+import Aini from '../assets/aini.jpg'
+import Jordi from '../assets/jordi.jpg'
+import Project from '../assets/skilMovie.png'
+import Bangkit from '../assets/screenShoot.png'
 
 function ProjectGroup() {
   return (
@@ -15,7 +19,7 @@ function ProjectGroup() {
                 </a>
                 </aside>
                 <aside className='project-group-img'>
-                <img src='/src/assets/screenShoot.png' />
+                <img src={Bangkit} />
                 </aside>
             </div>
         </article>
@@ -23,7 +27,7 @@ function ProjectGroup() {
                 <h3 className='project-group-title text-secondary'>Campus - Research Project</h3>
             <div className='row d-flex justify-content-between flex-column mb-3'>
                 <aside className='project-group-img mb-sm-3 p-1'>
-                <img src='/src/assets/aini.jpg' />
+                <img src={Aini} />
                 </aside>
                 <aside className='project-group-desc text-secondary'>
                 <div className='project-group-description'>
@@ -40,7 +44,7 @@ function ProjectGroup() {
             </div>
             <div className='row d-flex justify-content-between flex-column'>
                 <aside className='project-group-img mb-sm-3 p-1'>
-                <img src='/src/assets/jordi.jpg' />
+                <img src={Jordi} />
                 </aside>
                 <aside className='project-group-desc text-secondary'>
                 <div className='project-group-description'>
@@ -65,7 +69,7 @@ function ProjectGroup() {
                 </a>
                 </aside>
                 <aside className='project-group-img'>
-                <img src='/src/assets/skilMovie.png' />
+                <img src={Project} />
                 </aside>
             </div>
         </article>

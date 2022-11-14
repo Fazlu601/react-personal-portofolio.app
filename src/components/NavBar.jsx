@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { FaHome, FaInfoCircle, FaReadme, FaBook } from 'react-icons/fa'
+import NavIcon from '../assets/profile.png'
 
 const linkStyle = { color: 'gold' }
 
@@ -10,7 +11,7 @@ function NavBar() {
     <div className='nav-link'>
         <Link to='/' style={linkStyle}>
         <div className='nav-brand'>
-                <img className='nav-brand-icon' src='/src/assets/profile.png' width='28' />
+                <img className='nav-brand-icon' src={NavIcon} width='28' />
                 <span className='nav-brand-text'>Fazlu Rachman</span>
         </div>
         </Link>

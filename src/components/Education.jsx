@@ -1,4 +1,6 @@
 import React from 'react'
+import Unama from '..assets/unama.png'
+import School from '..assets/sma.png'
 
 function Education() {
   return (
@@ -6,7 +8,7 @@ function Education() {
         <h1 className='text-center title-page  text-secondary mt-3 mb-2'>Education</h1>
         <div className="row justify-content-between">
                     <div className="card-timeline">
-                        <img src="/src/assets/unama.png" alt=""/>
+                        <img src={Unama} alt=""/>
                         <div className="timeline-caption text-secondary">
                             <p className="timeline-title">
                                 Universitas Dinamika Bangsa Jambi
@@ -23,7 +25,7 @@ function Education() {
             <hr/>
             <div className="row justify-content-between">
                 <div className="card-timeline">
-                    <img src="/src/assets/sma.png" alt=""/>
+                    <img src={School} alt=""/>
                     <div className="timeline-caption text-secondary">
                         <p className="timeline-title">
                             SMA Negeri 8
@@ -40,7 +42,7 @@ function Education() {
             <hr/>
             <div className="row justify-content-between">
                 <div className="card-timeline">
-                    <img src="/src/assets/sma.png" alt=""/>
+                    <img src={School} alt=""/>
                     <div className="timeline-caption text-secondary">
                         <p className="timeline-title">
                             SMP Negeri 24
@@ -57,7 +59,7 @@ function Education() {
             <hr/>
             <div className="row justify-content-between">
                 <div className="card-timeline">
-                    <img src="/src/assets/sma.png" alt=""/>
+                    <img src={School} alt=""/>
                     <div className="timeline-caption text-secondary">
                         <p className="timeline-title">
                             SD Negeri 206
