@@ -10,7 +10,7 @@ function NavBar() {
     <div className='nav-link'>
         <Link to='/' style={linkStyle}>
         <div className='nav-brand'>
-                <img className='nav-brand-icon' src='./src/assets/image/profile.png' width='28' />
+                <img className='nav-brand-icon' src='/src/assets/image/profile.png' width='28' />
                 <span className='nav-brand-text'>Fazlu Rachman</span>
         </div>
         </Link>
