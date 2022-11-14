@@ -1,6 +1,6 @@
 import React from 'react'
-import Unama from '..assets/unama.png'
-import School from '..assets/sma.png'
+import Unama from '../assets/unama.png'
+import School from '../assets/sma.png'
 
 function Education() {
   return (
