@@ -6,7 +6,7 @@ function Experience() {
         <h1 className='text-center title-page text-secondary mt-3 mb-2'>Experience</h1>
         <ul className='list-group text-secondary '>
             <li className='list-img text-center'>
-                <img src='/src/assets/skilvul.png' />
+                <img src="/src/assets/skilvul.png" />
                 <img src='/src/assets/msib.png' />
                 <img src='/src/assets/kampusMerdeka.png' />
             </li>
