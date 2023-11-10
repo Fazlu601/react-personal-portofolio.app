@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaMailBulk, FaGithub, FaLinkedin, FaInstagram, FaDownload } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import Profil from '../assets/profile4.jpeg'
+import Profil from '../assets/profile4.jpg'
 
 function Header() {
   return (
@@ -9,15 +9,15 @@ function Header() {
                 <div className='row'>
                     <aside className='header-desc'>
                         <h3 className='header-introduction'>Hi, i'm Fazlu Rachman</h3>
-                        <h2 className='header-title'>Front-End Web Developer at SIB Tech4Impact</h2>
+                        <h2 className='header-title'>Junior Full Stack Web Developer</h2>
                         <p className='header-description'>
                         I’m from Indonesia and I am a student majoring in information systems who are interested and want to learn many things about programming, especially in web development. I feel this is the right passion for me, and I will continue to study as best as I can to pursue the career I dream of.
                         </p>
                         <div className='contact-group'>
-                            <button type='button' className='btn-md'>
-                                <FaMailBulk className='me-1'/>
-                                Email Me
-                            </button>
+                            <a href='https://drive.google.com/file/d/1RDQQdSGUrA50zeiF6nEcyHSh-2hcPtfb/view?usp=sharing' className='btn-md text' target='_blank'>
+                                <FaDownload className='me-1'/>
+                                Download CV
+                            </a>
                             <aside className='social-group'>
                                 <a href='https://github.com/Fazlu601' target='_blank'>
                                 <FaGithub className='social-icon' />

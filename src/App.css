@@ -105,7 +105,7 @@ aside.header-img > img {
   display: flex;
   padding: 30px 0 15px;
 }
-button.btn-md {
+a.btn-md {
   padding: 15px 30px;
   color: #FFFFFF;
   background-color: var(--crimson-color);
@@ -115,7 +115,7 @@ button.btn-md {
   word-spacing: 3px;
   cursor: pointer;
 }
-button.btn-md:hover {
+a.btn-md:hover {
   background-color: #93182f;
   transition: 0.8s;
 }

@@ -29,10 +29,6 @@ function NavBar() {
                 <span className='nav-text'>Skills</span>
                 <FaReadme className='nav-icon' />
         </NavLink>
-        <NavLink to='article' className='nav-items' style={({isActive}) => (isActive ? linkStyle : undefined)}>
-                <span className='nav-text'>Article</span>
-                <FaBook className='nav-icon' />
-        </NavLink>
       </div>
     </nav>
   )
