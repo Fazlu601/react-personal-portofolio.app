@@ -4,7 +4,7 @@ import Aini from '../assets/aini.jpg'
 import Jordi from '../assets/jordi.jpg'
 import Project from '../assets/skilMovie.png'
 import Bangkit from '../assets/screenShoot.png'
-import Toko from '../assets/toko.png'
+import Toko from '../assets/bab1.png'
 
 function ProjectGroup() {
   return (
