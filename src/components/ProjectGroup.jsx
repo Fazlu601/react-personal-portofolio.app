@@ -4,7 +4,7 @@ import Aini from '../assets/aini.jpg'
 import Jordi from '../assets/jordi.jpg'
 import Project from '../assets/skilMovie.png'
 import Bangkit from '../assets/screenShoot.png'
-import Ecommerce from '../assets/exommerce.png'
+import Toko from '../assets/toko.png'
 
 function ProjectGroup() {
   return (
@@ -61,7 +61,7 @@ function ProjectGroup() {
             </div>
             <div className='row d-flex justify-content-between flex-column'>
                 <aside className='project-group-img mb-sm-3 p-1'>
-                <img src={Ecommerce} />
+                <img src={Toko} />
                 </aside>
                 <aside className='project-group-desc text-secondary'>
                 <div className='project-group-description'>
