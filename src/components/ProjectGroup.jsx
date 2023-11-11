@@ -19,12 +19,12 @@ function ProjectGroup() {
                 </a>
                 </aside>
                 <aside className='project-group-img'>
-                <img src={Bangkit} />
+                <img className='bangkit' src={Bangkit} />
                 </aside>
             </div>
         </article>
         <article className='project-group w-80 w-sm-100 p-3 mx-auto'>
-                <h3 className='project-group-title text-secondary'>Campus - Research Project</h3>
+                <h3 className='project-group-title text-secondary'>Freelance & Research Project</h3>
             <div className='row d-flex justify-content-between flex-column mb-3'>
                 <aside className='project-group-img mb-sm-3 p-1'>
                 <img src={Aini} />
@@ -38,6 +38,22 @@ function ProjectGroup() {
                     </ul>
                 </div>
                 <a href='https://github.com/Fazlu601/proyek-penelitian-reservasi-hotel-grand-aini-jambi' target='_blank'>
+                <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> Detail Repositories</button>
+                </a>
+                </aside>
+            </div>
+            <div className='row d-flex justify-content-between flex-column mb-3'>
+                <aside className='project-group-img mb-sm-3 p-1'>
+                <img src={Jordi} />
+                </aside>
+                <aside className='project-group-desc text-secondary'>
+                <div className='project-group-description'>
+                Software Engineering Final Assignment :
+                    <ul className='list-group'>
+                        <li className='list'>Build with PHP & Codeigniter 3 Framework</li>
+                    </ul>
+                </div>
+                <a href='https://github.com/Fazlu601/Tugas-Akhir-RPL-Ecommerce-JordiVariasi' target='_blank'>
                 <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> Detail Repositories</button>
                 </a>
                 </aside>

@@ -4,7 +4,7 @@ import { FaGithub, FaMailBulk, FaLinkedin, FaInstagram } from 'react-icons/fa'
 function Footer() {
   return (
     <footer className='footer'>
-        <h3 className='mb-2'>Get in touch</h3>
+        <h3 className='mb-2'>PORTOFOLIO</h3>
         <p className='mb-2'>For business inquiry please send email to fazrlu9575@gmail.com</p>
         <div className='contact-group'>
                             <aside className='social-group'>

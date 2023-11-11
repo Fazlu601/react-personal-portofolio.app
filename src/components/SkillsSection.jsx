@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import Footer from '../components/Footer'
-import Loading from '../components/Loading';
-import ProjectGroup from '../components/ProjectGroup'
-import SkillsIcon from '../components/SkillsIcon'
+import Footer from './Footer'
+import Loading from './Loading';
+import ProjectGroup from './ProjectGroup'
+import SkillsIcon from './SkillsIcon'
 
-function Skills() {
+function SkillsSection() {
 
   const [loading, setLoading] = useState(true);
 
@@ -15,18 +15,13 @@ function Skills() {
   }, [] )
 
   return (
-    <div className='bg-triangle-animated'>
-      { loading ? (
-        <Loading/>
-      ) : (
+    <div className='bg-triangle-animated' id='skills'>
         <section className='skill-portofolio-section'>
           <SkillsIcon/>
           <ProjectGroup/>
         </section>
-      ) }
-        <Footer/>
     </div>
   )
 }
 
-export default Skills
+export default SkillsSection
