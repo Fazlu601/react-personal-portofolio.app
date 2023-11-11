@@ -4,6 +4,7 @@ import Aini from '../assets/aini.jpg'
 import Jordi from '../assets/jordi.jpg'
 import Project from '../assets/skilMovie.png'
 import Bangkit from '../assets/screenShoot.png'
+import Ecommerce from '../assets/exommerce.png'
 
 function ProjectGroup() {
   return (
@@ -60,16 +61,18 @@ function ProjectGroup() {
             </div>
             <div className='row d-flex justify-content-between flex-column'>
                 <aside className='project-group-img mb-sm-3 p-1'>
-                <img src={Jordi} />
+                <img src={Ecommerce} />
                 </aside>
                 <aside className='project-group-desc text-secondary'>
                 <div className='project-group-description'>
-                Software Engineering Final Assignment :
+                Project Freelance E-Commerce :
                     <ul className='list-group'>
-                        <li className='list'>Build with PHP & Codeigniter 3 Framework</li>
+                        <li className='list'>Build with PHP & Laravel 10 Framework</li>
+                        <li className='list'>Using Raja Ongkir API for delivery support</li>
+                        <li className='list'>End to end system with library transaction Midtrans Payment Gateway</li>
                     </ul>
                 </div>
-                <a href='https://github.com/Fazlu601/Tugas-Akhir-RPL-Ecommerce-JordiVariasi' target='_blank'>
+                <a href='https://github.com/Fazlu601/linda-fashion-app' target='_blank'>
                 <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> Detail Repositories</button>
                 </a>
                 </aside>
