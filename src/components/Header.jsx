@@ -19,7 +19,7 @@ function Header() {
                 <div className='row'>
                     <aside className='header-desc'>
                         <h3 className='header-introduction'>Hi, i'm Fazlu Rachman</h3>
-                        <h2 className='header-title'>Junior Full Stack Web Developer</h2>
+                        <h2 className='header-title'>Full Stack Web Developer</h2>
                         <p className='header-description'>
                         I am a recent graduate who is passionate about programming, particularly in the field of web development. I have learned a lot of fundamentals, including HTML, CSS, JavaScript, and PHP, as well as several frameworks like React JS and Laravel. I also have experience working on projects both individually and in teams.
                         </p>
