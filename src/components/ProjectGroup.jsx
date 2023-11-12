@@ -15,7 +15,7 @@ function ProjectGroup() {
                 <aside className='project-group-desc text-secondary'>
                 <h3 className='project-group-title '>Group Project</h3>
                 <p className='project-group-description'>In this project, my team and I create a digital product based on the challenge partner's problems. Namely making product innovations that can help the community in dealing with the COVID-19 pandemic.....</p>
-                <a href='https://github.com/FE-20-Group-Project/Bangkit-app' target='_blank'>
+                <a href='https://github.com/FE-20-Group-Project/React-Bangkit.app' target='_blank'>
                 <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> Detail Repositories</button>
                 </a>
                 </aside>
