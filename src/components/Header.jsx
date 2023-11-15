@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaMailBulk, FaGithub, FaLinkedin, FaInstagram, FaDownload } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import Profil from '../assets/profile4.png'
+import Profil from '../assets/profile5.png'
 
 function Header() {
     const redirectToEmail = () => {
@@ -17,11 +17,11 @@ function Header() {
   return (
         <header className='header-profile pb-2' id='home'>
                 <div className='row'>
-                    <aside className='header-desc'>
+                    <aside data-aos="fade-right" className='header-desc'>
                         <h3 className='header-introduction'>Hi, i'm Fazlu Rachman</h3>
                         <h2 className='header-title'>Junior Full Stack Web Developer</h2>
                         <p className='header-description'>
-                        I’m from Indonesia and I am a student majoring in information systems who are interested and want to learn many things about programming, especially in web development. I feel this is the right passion for me, and I will continue to study as best as I can to pursue the career I dream of.
+                        I am a recent graduate who is passionate about programming, particularly in the field of web development. I have learned a lot of fundamentals, including HTML, CSS, JavaScript, and PHP, as well as several frameworks like React JS and Laravel. I also have experience working on projects both individually and in teams.
                         </p>
                         <div className='contact-group'>
                             <button type='button' onClick={() => redirectToEmail()} className='btn-md'>
@@ -45,7 +45,7 @@ function Header() {
                             <span className='caption-download'>Download CV</span>
                         </a>
                     </aside>
-                    <aside className='header-img'>
+                    <aside data-aos="zoom-in" className='header-img'>
                         <img src={Profil} />
                     </aside>
                 </div>
