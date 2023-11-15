@@ -15,16 +15,16 @@ function Home() {
   }, [] )
 
   return (
-    <div className='bg-shape'>
+    <>
         { loading ? ( 
             <Loading/>
-        ) : <>
+        ) : <div className='bg-shape'>
               <Header/>
               <SkillsSection/>
               <Footer/>
-            </>
+            </div>
         }
-    </div>
+    </>
   )
 }
 
