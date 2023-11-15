@@ -15,7 +15,7 @@ function Home() {
   }, [] )
 
   return (
-    <>
+    <div className='bg-shape'>
         { loading ? ( 
             <Loading/>
         ) : <>
@@ -24,7 +24,7 @@ function Home() {
               <Footer/>
             </>
         }
-    </>
+    </div>
   )
 }
 

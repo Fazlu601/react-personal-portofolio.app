@@ -61,7 +61,6 @@ header.header-profile {
   width: 100%;
   margin: 30px 0 0;
   padding: 10px;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1231%26quot%3b)' fill='none'%3e%3ccircle r='32.84' cx='596.47' cy='404.35' fill='rgba(220%2c 20%2c 60%2c 0.38)'%3e%3c/circle%3e%3ccircle r='34.97' cx='1120.35' cy='324.09' fill='rgba(220%2c 20%2c 60%2c 0.38)'%3e%3c/circle%3e%3ccircle r='32.71' cx='1211.07' cy='491.24' fill='rgba(220%2c 20%2c 60%2c 0.38)'%3e%3c/circle%3e%3ccircle r='17.765' cx='55.36' cy='64.66' fill='rgba(220%2c 20%2c 60%2c 0.38)'%3e%3c/circle%3e%3ccircle r='40.465' cx='766.79' cy='236.2' fill='rgba(220%2c 20%2c 60%2c 0.38)'%3e%3c/circle%3e%3ccircle r='32.02' cx='1212.39' cy='470.23' fill='rgba(220%2c 20%2c 60%2c 0.38)'%3e%3c/circle%3e%3ccircle r='21.4' cx='825.51' cy='146.3' fill='rgba(220%2c 20%2c 60%2c 0.38)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1231'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
 }
 header.header-profile > .row {
   width: 100%;

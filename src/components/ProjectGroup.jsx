@@ -73,7 +73,7 @@ function ProjectGroup() {
                         <li className='list'>Build with PHP & Laravel 10 Framework</li>
                     </ul>
                 </div>
-                <a href='https://github.com/Fazlu601/linda-fashion-app' target='_blank'>
+                <a href='https://github.com/Fazlu601/cv-osmanjami-app' target='_blank'>
                 <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> Detail Repositories</button>
                 </a>
                 </aside>
@@ -90,7 +90,7 @@ function ProjectGroup() {
                         <li className='list'>With 2 Point of View user Admin & Student</li>
                     </ul>
                 </div>
-                <a href='https://github.com/Fazlu601/linda-fashion-app' target='_blank'>
+                <a href='https://github.com/Fazlu601/spp-muhammadiyah-app' target='_blank'>
                 <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> Detail Repositories</button>
                 </a>
                 </aside>
