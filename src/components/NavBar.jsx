@@ -7,7 +7,7 @@ const linkStyle = { color: 'gold' }
 
 function NavBar() {
   return (
-    <nav className='navbar'>
+    <nav data-aos="fade-down" className='navbar'>
     <div className='nav-link'>
         <div className='nav-brand'>
                 <img className='nav-brand-icon' src={NavIcon} width='28' />

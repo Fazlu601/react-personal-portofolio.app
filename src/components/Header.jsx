@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaMailBulk, FaGithub, FaLinkedin, FaInstagram, FaDownload } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import Profil from '../assets/profile4.png'
+import Profil from '../assets/profile5.png'
 
 function Header() {
     const redirectToEmail = () => {
@@ -17,7 +17,7 @@ function Header() {
   return (
         <header className='header-profile pb-2' id='home'>
                 <div className='row'>
-                    <aside className='header-desc'>
+                    <aside data-aos="fade-right" className='header-desc'>
                         <h3 className='header-introduction'>Hi, i'm Fazlu Rachman</h3>
                         <h2 className='header-title'>Junior Full Stack Web Developer</h2>
                         <p className='header-description'>
@@ -45,7 +45,7 @@ function Header() {
                             <span className='caption-download'>Download CV</span>
                         </a>
                     </aside>
-                    <aside className='header-img'>
+                    <aside data-aos="zoom-in" className='header-img'>
                         <img src={Profil} />
                     </aside>
                 </div>
