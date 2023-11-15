@@ -27,7 +27,7 @@ function ProjectGroup() {
         </article>
         <article className='project-group w-80 w-sm-100 p-3 mx-auto'>
                 <h3 data-aos="zoom-in-right" className='project-group-title text-secondary'>Freelance & Research Project</h3>
-            <div data-aos="zoom-in" className='row d-flex justify-content-between flex-column mb-3'>
+            <div data-aos="zoom-in-right" className='row d-flex justify-content-between flex-column mb-3'>
                 <aside className='project-group-img mb-sm-3 p-1'>
                 <img src={Aini} />
                 </aside>
@@ -44,7 +44,7 @@ function ProjectGroup() {
                 </a>
                 </aside>
             </div>
-            <div data-aos="zoom-in" className='row d-flex justify-content-between flex-column'>
+            <div data-aos="zoom-in-left" className='row d-flex justify-content-between flex-column'>
                 <aside className='project-group-img mb-sm-3 p-1'>
                 <img src={Toko} />
                 </aside>
@@ -62,7 +62,7 @@ function ProjectGroup() {
                 </a>
                 </aside>
             </div>
-            <div data-aos="zoom-in" className='row d-flex justify-content-between flex-column'>
+            <div data-aos="zoom-in-right" className='row d-flex justify-content-between flex-column'>
                 <aside className='project-group-img mb-sm-3 p-1'>
                 <img src={CV} />
                 </aside>
@@ -78,7 +78,7 @@ function ProjectGroup() {
                 </a>
                 </aside>
             </div>
-            <div data-aos="zoom-in" className='row d-flex justify-content-between flex-column'>
+            <div data-aos="zoom-in-left" className='row d-flex justify-content-between flex-column'>
                 <aside className='project-group-img mb-sm-3 p-1'>
                 <img src={SPP} />
                 </aside>
