@@ -98,14 +98,14 @@ function ProjectGroup() {
         </article>
         <article className='project-group bg-crimson p-3 mx-auto'>
             <div className='row d-flex justify-content-around flex-column'>
-                <aside data-aos="zoom-in-right" className='project-group-desc text-sm-center text-secondary mb-sm-3'>
+                <aside className='project-group-desc text-sm-center text-secondary mb-sm-3'>
                 <h3 className='project-group-title '>All Project</h3>
                 <p className='project-group-description'>You can see more of my projects on github via the following button</p>
                 <a href='https://github.com/Fazlu601?tab=repositories' target='_blank'>
                 <button className='w-60 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> View on GithHub...</button>
                 </a>
                 </aside>
-                <aside data-aos="zoom-in-left" className='project-group-img'>
+                <aside className='project-group-img'>
                 <img src={Project} />
                 </aside>
             </div>
