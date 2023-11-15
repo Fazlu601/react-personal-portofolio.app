@@ -4,7 +4,7 @@ import { FaHtml5, FaCss3, FaJs, FaPhp, FaLaravel, FaReact, FaDatabase, FaFigma, 
 function SkillsIcon() {
   return (
     <section className='skills-section w-90 mx-auto'>
-            <h1 data-aos="zoom-in-right" className='title-page text-secondary text-center mt-3 mb-2'>Skills</h1>
+            <h1 className='title-page text-secondary text-center mt-3 mb-2'>Skills</h1>
             <article className='skills-group'>
                 <div className='row d-flex justify-content-center f-wrap'>
                 <div data-aos="zoom-in" >             
