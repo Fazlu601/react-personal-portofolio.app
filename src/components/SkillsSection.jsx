@@ -15,12 +15,10 @@ function SkillsSection() {
   }, [] )
 
   return (
-    <div className='bg-triangle-animated' id='skills'>
-        <section className='skill-portofolio-section'>
+        <section className='skill-portofolio-section' id='skills'>
           <SkillsIcon/>
           <ProjectGroup/>
         </section>
-    </div>
   )
 }
 
