@@ -95,9 +95,9 @@ aside.header-desc {
 }
 aside.header-img {
   position: relative;
-  width: 380px;
+  width: 375px;
   background-color: rgba(224, 18, 59, 0.538);
-  height: 380px;
+  height: 375px;
   border-radius: 50%;
   transform: translateY(15px);
 }
