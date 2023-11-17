@@ -17,7 +17,7 @@ function ProjectGroup() {
                 <h3 className='project-group-title '>Group Project</h3>
                 <p className='project-group-description'>In this project, our team and I are developing a digital product tailored to address the challenges faced by our partner in the context of the COVID-19 pandemic. Our focus is on creating innovative solutions that can benefit the community.
                     <ul className='list-group'>
-                            <li className='list'>Build with React JS for a responsive user interface and Express JS as a robust server framework.</li>
+                            <li className='list'>Build with React JS for a responsive user interface and Express JS as a server framework.</li>
                             <li className='list'>Using Socket.io for a dynamic live chat forum</li>
                     </ul>
                 </p>   
