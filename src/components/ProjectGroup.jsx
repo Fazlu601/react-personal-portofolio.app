@@ -15,7 +15,12 @@ function ProjectGroup() {
             <div data-aos="zoom-in" className='row d-flex justify-content-between flex-column-reverse'>
                 <aside className='project-group-desc text-secondary'>
                 <h3 className='project-group-title '>Group Project</h3>
-                <p className='project-group-description'>In this project, my team and I create a digital product based on the challenge partner's problems. Namely making product innovations that can help the community in dealing with the COVID-19 pandemic.....</p>
+                <p className='project-group-description'>In this project, our team and I are developing a digital product tailored to address the challenges faced by our partner in the context of the COVID-19 pandemic. Our focus is on creating innovative solutions that can benefit the community.
+                    <ul className='list-group'>
+                            <li className='list'>Build with React JS for a responsive user interface and Express JS as a robust server framework.</li>
+                            <li className='list'>Using Socket.io for a dynamic live chat forum</li>
+                    </ul>
+                </p>   
                 <a href='https://github.com/FE-20-Group-Project/Bangkit-app' target='_blank'>
                 <button className='w-60 w-sm-100 bn5 mt-3 p-1 fs-3'><FaGithub className='me-1'/> Detail Repositories</button>
                 </a>
