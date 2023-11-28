@@ -40,9 +40,9 @@ function Header() {
                                 </a>
                             </aside>
                         </div>
-                        <a href='https://drive.google.com/file/d/1RDQQdSGUrA50zeiF6nEcyHSh-2hcPtfb/view?usp=sharing' target='_blank' className='btn-download cv'>
+                        <a href='https://resume.io/r/3cOBMRGQk' target='_blank' className='btn-download cv'>
                             <FaDownload/>
-                            <span className='caption-download'>Download CV</span>
+                            <span className='caption-download'>Curriculum Vitae</span>
                         </a>
                     </aside>
                     <aside data-aos="zoom-in" className='header-img'>
